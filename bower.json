@@ -1,0 +1,19 @@
+{
+  "name": "openlayer-map",
+  "version": "0.0.0",
+  "authors": [
+    "Cristian Rinaldi <csrinaldi@gmail.com>"
+  ],
+  "description": "OpenLayer Map Element.",
+  "keywords": "openlayer, polymer, web-components",
+  "main": "openlayer-map.html",
+  "license": "MIT",
+  "homepage": "https://github.com/csrinaldi/openlayer-map/",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.3",
+    "polymer-test-tools": "Polymer/polymer-test-tools#~0.3.3"
+  }
+}

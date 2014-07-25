@@ -1,0 +1,22 @@
+{
+    "attributes": {
+        "unresolved": {}
+    },
+    "elements": {
+        "polymer-element": {
+            "attributes": {
+                "name": {},
+                "attributes": {}
+            }
+        },
+        "template": {},
+        "content": {},
+        "core-component-page": {
+            "attributes": {
+                "moduleName": {},
+                "sources": {}
+            }
+        },
+        "openlayer-map": {}
+    }
+}

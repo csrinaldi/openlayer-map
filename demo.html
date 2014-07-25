@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+        <title>seed-element Demo</title>
+
+        <script src="../platform/platform.js"></script>
+        <link rel="import" href="openlayer-map.html">
+
+    </head>
+    <body unresolved>
+
+        <p>An example of using <code>&lt;openlayer-map></code>:</p>
+
+    <openlayer-map id="map">
+    </openlayer-map>
+
+    <script>
+        document.addEventListener('polymer-ready', function() {
+            console.log("Polymer is Ready");
+            var map = document.getElementById('map');
+            map.addLayer(new ol.layer.Tile({source: new ol.source.OSM()}));
+            map.setCenter([0, 0]);
+            map.setZoom(2);
+        });
+    </script>
+
+</body>
+</html>
